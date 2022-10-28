@@ -122,3 +122,8 @@ border: 3px solid red;
     transition: all 1s;
     transform: scale(1.03);
 }
+.enlaces{
+    font-weight:bold ;
+    font-style: italic;
+     font-size: larger;
+}
