@@ -1,0 +1,119 @@
+*{
+margin: 5px;
+padding: 0;
+background-color: lightblue;
+font-size: medium;
+}
+
+
+.main{
+    display: block;
+    height: 10px;
+    color:white;
+
+}
+.cat,img{ 
+    height: 120px;
+    width: auto;
+    max-height: 100%;
+
+}
+
+ 
+.header,nav,ul,li {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size:xx-large;
+    margin-left: 660px;
+    
+    
+}
+.Primer-Partido{
+    padding: 10px;
+    margin-left: 90px;
+    height: 40px;
+    border: 3px solid ;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+
+.segundo-partido{
+    padding:10px;
+    margin-left: 200px;
+    height: 40px;
+    border: 3px solid;
+    font-weight: bold;
+    display: inline-flex ;
+}
+.Tercer-partido{
+    padding: 10px;
+    height: 40px;
+    margin-left: 370px;
+    border: 3px solid;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+
+
+ .cat{
+    height: 130px;
+    padding:10px;
+    
+    background-color: lightblue;
+    display: inline-flex;
+    font-weight: bold;
+    font-family: 'Lucida Sans'; 
+    
+ }
+ img{
+    
+width: auto;
+max-height: 100%;
+
+
+ }
+
+.footer{
+    position: absolute;
+    bottom: 10; 
+    width: 0%;
+}
+ .estadios,p{
+    background-position: 0px;
+    padding-right: 10px;
+    margin: 5px;
+    height: 90px;
+    font-weight: bold;
+   font-family: 'Times New Roman';
+}
+
+.nombres{
+padding-bottom: 10px;
+margin:5px;
+height: 10px;
+font-weight: bold;
+font-style: italic;
+border: 3px solid red;
+}
+  
+.listas-equipos{
+    padding: 5px;
+    border: 4px solid black;
+    margin: 2px;
+    height: 305px;
+    font-weight: bold;
+    font-size:small;
+}
+.jugadores{ 
+    font-size: small;
+    margin-top: 5px;
+    height: 5px;
+    font-family:'Franklin Gothic Medium';
+}
+
