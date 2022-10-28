@@ -16,7 +16,8 @@ font-size: medium;
     height: 120px;
     width: auto;
     max-height: 100%;
-
+    border-radius: 10px;
+   ;
 }
 
  
@@ -117,3 +118,7 @@ border: 3px solid red;
     font-family:'Franklin Gothic Medium';
 }
 
+.box-1:hover{
+    transition: all 1s;
+    transform: scale(1.03);
+}
