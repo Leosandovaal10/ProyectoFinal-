@@ -32,6 +32,7 @@ font-size: medium;
     margin-left: 660px;
     
     
+    
 }
 .Primer-Partido{
     padding: 10px;
@@ -40,6 +41,7 @@ font-size: medium;
     border: 3px solid ;
     font-weight: bold;
     display: inline-flex;
+    background-color: red;
 }
 
 
@@ -50,6 +52,7 @@ font-size: medium;
     border: 3px solid;
     font-weight: bold;
     display: inline-flex ;
+    background-color: red;
 }
 .Tercer-partido{
     padding: 10px;
@@ -58,18 +61,20 @@ font-size: medium;
     border: 3px solid;
     font-weight: bold;
     display: inline-flex;
+    background-color: red;
+    flex-wrap: wrap;
 }
 
 
 
  .cat{
     height: 130px;
-    padding:10px;
-    
+    padding: 80px;    
     background-color: lightblue;
     display: inline-flex;
     font-weight: bold;
     font-family: 'Lucida Sans'; 
+
     
  }
  img{
@@ -121,9 +126,29 @@ border: 3px solid red;
 .box-1:hover{
     transition: all 1s;
     transform: scale(1.03);
+    background-color:brown;
 }
 .enlaces{
     font-weight:bold ;
     font-style: italic;
      font-size: larger;
+}
+ /* Mobile */
+@media only screen and (max-width:500px){
+    body {
+        width: 100%; 
+    
+    
+}
+}
+/* Tablet */
+@media only screen and (min-width:501px) and (max-width:980px){
+    body{
+       width: 100%;
+    }
+}
+
+/* Orientacion del dispocitivo */
+@media only screen and (orientation: landscape){
+
 }
