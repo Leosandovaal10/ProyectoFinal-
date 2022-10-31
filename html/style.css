@@ -2,10 +2,10 @@
 margin: 5px;
 padding: 0;
 background-color: lightblue;
-font-size: medium;
+font-size: large;
 }
 .main{
-    display: block;
+    display: inline;
     height: 10px;
     color:white;
 
@@ -15,30 +15,34 @@ font-size: medium;
     width: auto;
     max-height: 100%;
     border-radius: 10px;
-    grid-area: box1;
+    grid-area: box5;
 }
 
  
 .header,nav,ul,li {
     display: inline-flex;
-    padding: 10px;
+    padding: 5px;
+    margin-top: -100px;
 
 }
 
 .titulo{
     font-weight: bold;
     font-size:xx-large;
-    margin-left: 660px;
-    grid-area: box2;
+    margin-left:-850px;
+    margin-top: -1000;
+    
+    grid-area: box1;   
     
     
     
 }
 .Primer-Partido{
-    padding: 10px;
-    margin-top:500px;
-    margin-left: 0px;
-    height: 50px;
+    padding: 5px;
+    margin-top: 300px;
+    margin-left: -30px;
+    margin-right: -50px;
+    height: 30px;
     border: 3px solid ;
     font-weight: bold;
     display: inline-flex;
@@ -47,20 +51,22 @@ font-size: medium;
 
 
 .segundo-partido{
-    padding:10px;
-    margin-top: 500px;
-    margin-left: 50px;
-    height: 40px;
+    padding: 5px;
+    display: inline-flex;
+    margin-top: 300px;
+    margin-left:160px;
+    margin-right: -210px;
+    height: 30px;
     border: 3px solid;
     font-weight: bold;
-    display: inline-flex ;
     background-color: red;
 }
 .Tercer-partido{
-    padding: 10px;
-    height: 40px;
-    margin-top: 190px;
-    margin-left: 370px;
+    padding: 5px;
+    height: 30px;
+    margin-top: 300px;
+    margin-left: 313px;
+    margin-right: 10px;
     border: 3px solid;
     font-weight: bold;
     display: inline-flex;
@@ -71,15 +77,25 @@ font-size: medium;
 
  .cat{
     height: 130px;
-    padding: 80px;    
+    padding: 10px;    
     background-color: lightblue;
     display: inline-flex;
     font-weight: bold;
     font-family: 'Lucida Sans'; 
+    margin-top: 10px;
     
    
 
     
+ }
+ .fotos{
+    margin-top: 650px;
+    margin-left: -1085px;
+    margin-right: 200px;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    display: inline-flex;
  }
  img{
     
@@ -93,8 +109,8 @@ max-height: 100%;
     position: absolute;
     bottom: 10; 
     width: 0%;
-    grid-area: box6;
-    margin-top: 800px;
+    grid-area: box4;
+    margin-top: 1000px;
 }
  .estadios,p{
     background-position: 0px;
@@ -133,8 +149,13 @@ border: 3px solid red;
     transition: all 1s;
     transform: scale(1.03);
     background-color:brown;
+    border-radius: 10px;
+    
 }
 .enlaces{
+    margin-left: 300px;
+    margin-top: 0px;
+    padding-bottom: 1000px;
     font-weight:bold ;
     font-style: italic;
      font-size: larger;
@@ -158,13 +179,45 @@ border: 3px solid red;
 /* Orientacion del dispocitivo */
 @media only screen and (orientation: landscape){
 
+
 }
 
 .container{
     display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 2fr 2fr 2fr;
-    gap: 5px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 4px;
     
     
+}
+
+.encuentros{
+    display: inline-flex;
+    margin-top: 200px;
+    margin-left: -150px;
+}
+
+.Primer-encuentro{
+    display: inline-flex;
+    margin-top: 300px;
+    padding: 5px;
+    height: 30px;
+    border: 3px solid;
+    font-weight: bold;
+    background-color: red;
+    margin-left: -250px;
+}
+
+.segundo-encuentro{
+    display: inline-flex;
+    margin-top: -1040px;
+    padding: 5px;
+    height: 30px;
+    border: 3px solid;
+    font-weight: bold;
+    background-color: red;
+    margin-left: 720px;
+    margin-right: -960px;
+}
+
 }
