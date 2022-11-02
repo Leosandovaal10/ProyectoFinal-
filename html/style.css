@@ -53,7 +53,7 @@ font-size: large;
 .segundo-partido{
     padding: 5px;
     display: inline-flex;
-    margin-top: 300px;
+    margin-top: 295px;
     margin-left:160px;
     margin-right: -210px;
     height: 30px;
@@ -205,7 +205,7 @@ border: 3px solid red;
     border: 3px solid;
     font-weight: bold;
     background-color: red;
-    margin-left: -250px;
+    margin-left: -270px;
 }
 
 .segundo-encuentro{
@@ -216,8 +216,70 @@ border: 3px solid red;
     border: 3px solid;
     font-weight: bold;
     background-color: red;
-    margin-left: 720px;
+    margin-left: 700px;
     margin-right: -960px;
 }
 
+.Tercer-encuentro{
+    display: inline-flex;
+    margin-top: -840px;
+    padding: 5px;
+    height: 30px;
+    border: 3px solid;
+    font-weight: bold;
+    background-color: red;
+    margin-left: 180px;
+    margin-right: -460px;
+
+}
+
+.Cuarto-encuentro{
+    display: inline-flex;
+    margin-top: -640px;
+    padding: 5px;
+    height: 30px;
+    border: 3px solid;
+    font-weight: bold;
+    background-color: red;
+    margin-left: -270px;
+    margin-right: 20px;
+
+
+}
+
+.Quinto-encuentro{
+    display: inline-flex;
+    margin-top: -1980px;
+    padding: 5px;
+    height: 30px;
+    border: 3px solid;
+    font-weight: bold;
+    background-color: red;
+    margin-left: 680px;
+    margin-right: -930px;
+
+}
+
+.Sexto-encuentro{
+    display: inline-flex;
+    margin-top: -1760px;
+    padding: 5px;
+    height: 30px;
+    border: 3px solid;
+    font-weight: bold;
+    background-color: red;
+    margin-left: 180px;
+    margin-right: -460px;
+
+
+}
+
+.redes{
+    display: inline-flex;
+    margin-top: -5000px;
+    margin-bottom: -5000px;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: -300px;
 }
