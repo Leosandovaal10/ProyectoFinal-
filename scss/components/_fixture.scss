@@ -1,3 +1,5 @@
+@import"../base/listas";
+
 .cat,img{
     height: 220px;
     max-height: 100%;
@@ -5,7 +7,7 @@
 }
 
 body{
-    background-color: lightblue;
+    background-color: nth($colores, 7);
 }
 
 .navbar{
@@ -17,7 +19,7 @@ body{
 }
 
 .navbar-nav{
-    background-color: aqua;
+    background-color:nth($colores, 7 );
     font-style: italic;
     font-size: large;
     font-family:'Courier New', Courier, monospace;
@@ -26,12 +28,12 @@ body{
 }
 
 a:visited{
-    color: black;
+    color: nth($colores, 6 );
     
 }
 
 a:active{
-    background-color:darkgreen;
+    background-color:nth($colores, 5 );
 }
 
 .primer-partido{
