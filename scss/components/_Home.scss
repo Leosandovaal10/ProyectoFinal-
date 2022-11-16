@@ -1,0 +1,103 @@
+@import"../base/listas";
+
+.cat,img{
+    height: 220px;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+body{
+    background-color: nth($colores,7 );
+}
+
+.navbar{
+    background-color:nth($colores , 3 );
+    font-style: italic;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    background-color:nth($colores, 3 );
+    font-style: italic;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+        
+}
+
+a:visited{
+    color: nth($colores, 6 );
+    
+}
+
+a:active{
+    background-color:nth($colores , 5 );
+}
+
+.primer-partido{
+    display: flex;
+    height: 120px;
+    margin: 10px;
+    padding-left: 2px;
+    border: 3px solid red;
+    background-color: olivedrab;
+    font-weight: bold;
+
+
+}
+.segundo-partido{
+    display: flex;
+    height: 120px;
+    margin: 10px;
+    padding-left: 2px;
+    border: 3px solid red;
+    background-color: olivedrab;
+    font-weight: bold;
+}
+
+.Tercer-partido{
+    display: flex;
+    height: 120px;
+    margin: 10px;
+    padding-left: 2px;
+    border: 3px solid red;
+    background-color: olivedrab;
+    font-weight: bold;
+    
+}
+
+.footer{
+    display:inline;
+    font-size: large;
+    font-weight:bolder;
+    font-style: italic;
+    
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+
+
+.titulo-partidos{
+    font-size: x-large;
+    margin-top: 50px;
+    margin-left: 580px;
+    margin-bottom:-600;
+    display: flex; 
+ 
+    
+}
+p::first-letter{
+color: nth($colores , 6 );
+font-size: 20px;
+font-style: italic;
+}
+
+.banderas{
+    height: 83px;
+}
+
