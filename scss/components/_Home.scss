@@ -1,5 +1,6 @@
 @import"../base/listas";
 
+
 .cat,img{
     height: 220px;
     max-height: 100%;
@@ -73,11 +74,14 @@ a:active{
     font-size: large;
     font-weight:bolder;
     font-style: italic;
+    padding: 150px;
+  margin: 150px;
+  border-radius: 3px solid black;
     
 }
 
 .carousel-item {
-    height: 300px;
+    height: 320px;
 }
 
 

@@ -1,5 +1,6 @@
 @import"../base/listas";
 
+
 .cat,img{
     height: 220px;
     max-height: 100%;
@@ -34,7 +35,10 @@ a:visited{
 
 a:active{
     background-color:nth($colores, 5 );
+    
 }
+
+
 
 .primer-partido{
     display: flex;
@@ -42,7 +46,7 @@ a:active{
     margin: 10px;
     padding-left: 2px;
     border: 3px solid red;
-    background-color: olivedrab;
+    background-color:olivedrab;
     font-weight: bold;
 
 
@@ -53,7 +57,7 @@ a:active{
     margin: 10px;
     padding-left: 2px;
     border: 3px solid red;
-    background-color: olivedrab;
+    background-color:rgb(203, 115, 52);
     font-weight: bold;
 }
 
@@ -63,7 +67,7 @@ a:active{
     margin: 10px;
     padding-left: 2px;
     border: 3px solid red;
-    background-color: olivedrab;
+    background-color:rgb(172, 92, 66);
     font-weight: bold;
     
 }
@@ -74,7 +78,7 @@ a:active{
     font-size: large;
     font-weight:bolder;
     font-style: italic;
-    
+    padding: 150px;
 }
 
 .banderas{
