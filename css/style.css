@@ -323,4 +323,41 @@ a:active {
   background-color: darkgreen;
 }
 
+.listas-equipos {
+  padding: 5px;
+  border: 4px solid black;
+  margin: 4px;
+  margin-right: 800px;
+  margin-left: 0px;
+  height: 435px;
+  font-weight: bold;
+  font-size: large;
+  background-color: palegreen;
+}
+
+.listas-equipos2 {
+  padding: 5px;
+  border: 4px solid black;
+  margin: 4px;
+  margin-top: -440px;
+  margin-left: 800px;
+  height: 435px;
+  font-weight: bold;
+  font-size: large;
+  background-color: palegreen;
+}
+
+.listas-equipos3 {
+  padding: 5px;
+  border: 4px solid black;
+  margin: 4px;
+  margin-top: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  height: 435px;
+  font-weight: bold;
+  font-size: large;
+  background-color: palegreen;
+}
+
 /*# sourceMappingURL=style.css.map */
