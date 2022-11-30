@@ -14,6 +14,7 @@ body{
 
 .navbar{
     background-color:aqua;
+    margin: 5px;
     font-style: italic;
     font-size: large;
     font-family:'Courier New', Courier, monospace;
@@ -38,10 +39,11 @@ a:active{
     background-color: nth($colores, 5 );
 }
 
-.listas-equipos{
+.fondo-equipo{
+    background-color: silver;
     padding: 5px;
-    border: 4px solid black;
-    margin: 2px;
+    border: 4px solid black ;
+    margin: 10px;
     height: 735px;
     font-weight: bold;
     font-size:small;

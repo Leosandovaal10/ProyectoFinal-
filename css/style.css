@@ -10,6 +10,7 @@ body {
 
 .navbar {
   background-color: aqua;
+  margin: 5px;
   font-style: italic;
   font-size: large;
   font-family: "Courier New", Courier, monospace;
@@ -33,9 +34,10 @@ a:active {
 }
 
 .primer-partido {
-  display: flex;
-  height: 120px;
+  display: inline-flex;
+  height: 150px;
   margin: 10px;
+  margin-left: 30px;
   padding-left: 2px;
   border: 3px solid red;
   background-color: olivedrab;
@@ -44,7 +46,7 @@ a:active {
 
 .segundo-partido {
   display: flex;
-  height: 120px;
+  height: 150px;
   margin: 10px;
   padding-left: 2px;
   border: 3px solid red;
@@ -54,7 +56,7 @@ a:active {
 
 .Tercer-partido {
   display: flex;
-  height: 120px;
+  height: 150px;
   margin: 10px;
   padding-left: 2px;
   border: 3px solid red;
@@ -63,17 +65,14 @@ a:active {
 }
 
 .footer {
-  display: inline;
   font-size: large;
   font-weight: bolder;
   font-style: italic;
-  padding: 150px;
-  margin: 150px;
-  border-radius: 3px solid black;
 }
 
 .carousel-item {
-  height: 320px;
+  height: 350px;
+  margin: 5px;
 }
 
 .titulo-partidos {
@@ -91,7 +90,7 @@ p::first-letter {
 }
 
 .banderas {
-  height: 83px;
+  height: 80px;
 }
 
 .cat, img {
@@ -106,6 +105,7 @@ body {
 
 .navbar {
   background-color: aqua;
+  margin: 5px;
   font-style: italic;
   font-size: large;
   font-family: "Courier New", Courier, monospace;
@@ -182,6 +182,7 @@ body {
 
 .navbar {
   background-color: aqua;
+  margin: 5px;
   font-style: italic;
   font-size: large;
   font-family: "Courier New", Courier, monospace;
@@ -204,10 +205,11 @@ a:active {
   background-color: darkgreen;
 }
 
-.listas-equipos {
+.fondo-equipo {
+  background-color: silver;
   padding: 5px;
   border: 4px solid black;
-  margin: 2px;
+  margin: 10px;
   height: 735px;
   font-weight: bold;
   font-size: small;
@@ -236,6 +238,7 @@ body {
 
 .navbar {
   background-color: aqua;
+  margin: 5px;
   font-style: italic;
   font-size: large;
   font-family: "Courier New", Courier, monospace;
@@ -301,6 +304,7 @@ body {
 
 .navbar {
   background-color: aqua;
+  margin: 5px;
   font-style: italic;
   font-size: large;
   font-family: "Courier New", Courier, monospace;
@@ -324,45 +328,48 @@ a:active {
 }
 
 .listas-equipos {
+  display: block;
   padding: 5px;
   border: 4px solid black;
   margin: 4px;
-  margin-right: 820px;
-  margin-left: 50px;
-  height: 435px;
+  margin-right: 300px;
+  margin-left: 100px;
+  height: 635px;
   font-weight: bold;
   font-size: large;
   background-color: palegreen;
 }
 
 .listas-equipos2 {
+  display: block;
   padding: 5px;
   border: 4px solid black;
   margin: 4px;
-  margin-top: -440px;
-  margin-left: 700px;
-  margin-right: 120px;
-  height: 435px;
+  margin-top: 120px;
+  margin-left: 100px;
+  margin-right: 300px;
+  height: 635px;
   font-weight: bold;
-  font-size: large;
+  font-size: medium;
   background-color: palegreen;
 }
 
 .listas-equipos3 {
+  display: block;
   padding: 5px;
   border: 4px solid black;
   margin: 4px;
-  margin-top: 50px;
-  margin-left: 400px;
-  margin-right: 400px;
-  height: 435px;
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 300px;
+  height: 635px;
   font-weight: bold;
   font-size: large;
   background-color: palegreen;
 }
 
 .goleadores {
-  font-size: x-large;
+  font-size: medium;
   font-style: italic;
   margin-top: -345px;
   height: 5px;
@@ -370,7 +377,7 @@ a:active {
 }
 
 .tarjetas-rojas {
-  font-size: x-large;
+  font-size: medium;
   font-style: italic;
   margin-top: -140px;
   height: 5px;
@@ -378,7 +385,7 @@ a:active {
 }
 
 .tarjetas-amarillas {
-  font-size: x-large;
+  font-size: medium;
   font-style: italic;
   margin-top: -130px;
   height: 5px;

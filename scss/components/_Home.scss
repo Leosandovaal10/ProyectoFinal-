@@ -13,6 +13,7 @@ body{
 
 .navbar{
     background-color:nth($colores , 3 );
+    margin: 5px;
     font-style: italic;
     font-size: large;
     font-family:'Courier New', Courier, monospace;
@@ -38,9 +39,10 @@ a:active{
 }
 
 .primer-partido{
-    display: flex;
-    height: 120px;
+    display: inline-flex;
+    height: 150px;
     margin: 10px;
+    margin-left: 30px;
     padding-left: 2px;
     border: 3px solid red;
     background-color: olivedrab;
@@ -50,7 +52,7 @@ a:active{
 }
 .segundo-partido{
     display: flex;
-    height: 120px;
+    height: 150px;
     margin: 10px;
     padding-left: 2px;
     border: 3px solid red;
@@ -60,7 +62,7 @@ a:active{
 
 .Tercer-partido{
     display: flex;
-    height: 120px;
+    height: 150px;
     margin: 10px;
     padding-left: 2px;
     border: 3px solid red;
@@ -70,18 +72,17 @@ a:active{
 }
 
 .footer{
-    display:inline;
+    
     font-size: large;
     font-weight:bolder;
     font-style: italic;
-    padding: 150px;
-  margin: 150px;
-  border-radius: 3px solid black;
+   
     
 }
 
 .carousel-item {
-    height: 320px;
+    height: 350px;
+    margin: 5px;
 }
 
 
@@ -102,6 +103,7 @@ font-style: italic;
 }
 
 .banderas{
-    height: 83px;
+    height: 80px;
 }
+
 
